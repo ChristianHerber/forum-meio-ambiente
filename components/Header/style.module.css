@@ -9,13 +9,15 @@
     align-items: center;
 }
 .header h1 {
-margin-bottom: 15px;
-font-size: 42px;
+    margin-bottom: 15px;
+    font-size: 46px;
+    margin-bottom: 0;
 }
-.header h1 strong {
-text-transform: uppercase;
+.subtitle{
+    text-transform: uppercase;
+    padding-bottom: 15px;
 }
 .header p {
-color: #6b3e0a;
-font-size: 24px;
+    color: #6b3e0a;
+    font-size: 24px;
 }
