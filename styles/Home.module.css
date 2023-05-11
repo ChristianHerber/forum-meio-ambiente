@@ -23,7 +23,7 @@
   flex-wrap: wrap;
 }
 
-.title a {
+/* .title a {
   color: #0070f3;
   text-decoration: none;
 }
@@ -101,12 +101,30 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+} */
+
+@media (max-width: 991px) {
+  .main {
+    padding: 4rem 6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 4rem 3rem;
+  }
 }
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 4rem 1.2rem;
   }
 }
 

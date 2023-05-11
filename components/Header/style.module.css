@@ -23,3 +23,18 @@
     color: #6b3e0a;
     font-size: 24px;
 }
+
+@media (max-width: 667px) {
+    .header p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 513px) {
+    .header h1 {
+        text-align: center;
+    }
+    .header h1:first-child {
+        font-size: 36px;
+    }
+}

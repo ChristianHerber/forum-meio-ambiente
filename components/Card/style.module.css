@@ -16,3 +16,10 @@
 .card_body {
     padding: 2px 16px;
 }
+
+@media (max-width: 831px) {
+    .card {
+        text-align: center;
+        margin: 15px auto;
+    }
+}
