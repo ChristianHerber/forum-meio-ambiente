@@ -10,6 +10,7 @@ import Button from '../components/Button'
 import Card from '../components/Card'
 import Container from '../components/Container'
 import Taskbar from '../components/Taskbar'
+import Photo from '../components/Photo'
 
 const Home: NextPage = () => {
   return (
@@ -43,6 +44,14 @@ const Home: NextPage = () => {
 
         <Container>
           <Topic htitle="Fotos" anchor='foto'/>
+          <div className={styles.card_container}>
+            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/profile-photo.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
+          </div>
         </Container>
 
         <Container>
