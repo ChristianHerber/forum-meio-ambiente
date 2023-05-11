@@ -17,6 +17,12 @@
   border-left: 5px solid #90a970;
 }
 
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
