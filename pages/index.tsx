@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import Button from '../components/Button'
 import Card from '../components/Card'
 import Container from '../components/Container'
+import Taskbar from '../components/Taskbar'
 
 const Home: NextPage = () => {
   return (
@@ -51,6 +52,7 @@ const Home: NextPage = () => {
       </main>
 
       <Footer />
+      <Taskbar />
 
     </div>
   )

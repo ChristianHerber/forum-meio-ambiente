@@ -1,0 +1,12 @@
+.taskbar_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    width: 100%;
+    /* min-height: 45px; */
+    padding: 10px 0;
+    background: #90a970;
+}
