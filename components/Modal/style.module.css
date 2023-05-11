@@ -1,0 +1,29 @@
+.bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.9);
+    transition: 0.2s;
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.2s;
+}
+
+.close {
+    position: absolute;
+    z-index: 99;
+    top: 15px;
+    right: 15px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
