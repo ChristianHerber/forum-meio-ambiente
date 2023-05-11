@@ -1,5 +1,5 @@
 .main {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background: url("/assets/img/bg.png") no-repeat bottom right;
   padding: 4rem 12rem;
   font-size: 1.3rem;
