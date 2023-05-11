@@ -6,6 +6,7 @@ html,
   margin: 0;
   font-family: 'Dosis', sans-serif;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {

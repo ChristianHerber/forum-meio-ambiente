@@ -20,19 +20,19 @@ const Home: NextPage = () => {
         <link rel="icon" href="/assets/img/favicon.png" />
       </Head>
 
-      <Header />
+      <Header anchor='home'/>
 
       <main className={styles.main}>
 
         <Description />
 
         <Container>
-          <Topic htitle="Link para Inscrição"/>
+          <Topic htitle="Link para Inscrição" anchor='link'/>
           <Button LinkHref='https://forumsemmeatga.com.br' LinkTarget="_blank" LinkTitle="Fazer Inscrição"/>
         </Container>
 
         <Container>
-          <Topic htitle="Presenças Confirmadas"/>
+          <Topic htitle="Presenças Confirmadas" anchor='presenca'/>
           <div className={styles.card_container}>
             <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Taline de Almeida" cardTitle="Bióloga" />
             <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Alexandra Silva" cardTitle="Engenheira" />
@@ -42,11 +42,11 @@ const Home: NextPage = () => {
         </Container>
 
         <Container>
-          <Topic htitle="Fotos"/>
+          <Topic htitle="Fotos" anchor='foto'/>
         </Container>
 
         <Container>
-          <Topic htitle="Cronograma do Evento"/>
+          <Topic htitle="Cronograma do Evento" anchor='cronograma'/>
         </Container>
 
       </main>
