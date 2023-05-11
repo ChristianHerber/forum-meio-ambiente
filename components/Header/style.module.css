@@ -39,7 +39,7 @@
     }
 }
 
-@media (max-width: 405px) {
+@media (max-width: 420px) {
     .header h1:first-child {
         font-size: 32px;
     }
