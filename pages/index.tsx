@@ -8,6 +8,7 @@ import Topic from '../components/Topic'
 import Footer from '../components/Footer'
 import Button from '../components/Button'
 import Card from '../components/Card'
+import Container from '../components/Container'
 
 const Home: NextPage = () => {
   return (
@@ -24,20 +25,28 @@ const Home: NextPage = () => {
 
         <Description />
 
-        <Topic htitle="Link para Inscrição"/>
-        <Button LinkHref='https://forumsemmeatga.com.br' LinkTarget="_blank" LinkTitle="Fazer Inscrição"/>
+        <Container>
+          <Topic htitle="Link para Inscrição"/>
+          <Button LinkHref='https://forumsemmeatga.com.br' LinkTarget="_blank" LinkTitle="Fazer Inscrição"/>
+        </Container>
 
-        <Topic htitle="Presenças Confirmadas"/>
-        <div className={styles.card_container}>
-          <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Taline de Almeida" cardTitle="Bióloga" />
-          <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Alexandra Silva" cardTitle="Engenheira" />
-          <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Maria Júlia" cardTitle="Eng Sanitarista" />
-          <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Yasmin Santos" cardTitle="Bióloga" />
-        </div>
+        <Container>
+          <Topic htitle="Presenças Confirmadas"/>
+          <div className={styles.card_container}>
+            <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Taline de Almeida" cardTitle="Bióloga" />
+            <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Alexandra Silva" cardTitle="Engenheira" />
+            <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Maria Júlia" cardTitle="Eng Sanitarista" />
+            <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Yasmin Santos" cardTitle="Bióloga" />
+          </div>
+        </Container>
 
-        <Topic htitle="Fotos"/>
+        <Container>
+          <Topic htitle="Fotos"/>
+        </Container>
 
-        <Topic htitle="Cronograma do Evento"/>
+        <Container>
+          <Topic htitle="Cronograma do Evento"/>
+        </Container>
 
       </main>
 
