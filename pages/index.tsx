@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-// import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Description from '../components/Description'
@@ -28,11 +27,11 @@ const Home: NextPage = () => {
         <Description />
 
         <Container>
-          <Topic htitle="Link para Inscrição" anchor='link'/>
+          <Topic htitle="Link e QRCode para Inscrição" anchor='link'/>
           <Button LinkHref='https://forumsemmeatga.com.br' LinkTarget="_blank" LinkTitle="Fazer Inscrição"/>
         </Container>
 
-        <Container>
+        {/* <Container>
           <Topic htitle="Presenças Confirmadas" anchor='presenca'/>
           <div className={styles.card_container}>
             <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Taline de Almeida" cardTitle="Bióloga" />
@@ -40,9 +39,9 @@ const Home: NextPage = () => {
             <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Maria Júlia" cardTitle="Eng Sanitarista" />
             <Card cardPhoto="/assets/img/profile-photo.jpg" cardPhotoAlt="" cardName="Yasmin Santos" cardTitle="Bióloga" />
           </div>
-        </Container>
+        </Container> */}
 
-        <Container>
+        {/* <Container>
           <Topic htitle="Fotos" anchor='foto'/>
           <div className={styles.card_container}>
             <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
@@ -52,7 +51,7 @@ const Home: NextPage = () => {
             <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
             <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
           </div>
-        </Container>
+        </Container> */}
 
         <Container>
           <Topic htitle="Cronograma do Evento" anchor='cronograma'/>
