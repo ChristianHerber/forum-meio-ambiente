@@ -10,7 +10,7 @@ const Taskbar = () => {
         <div className={styles.taskbar_container}>
             <TaskbarItem className={styles.taskbar_item} itemLink='#home' itemText={<AiFillHome size={35}/>}/>
             <TaskbarItem className={styles.taskbar_item} itemLink='#link' itemText={<FiExternalLink size={35}/>}/>
-            <TaskbarItem className={styles.taskbar_item} itemLink='#foto' itemText={<IoMdPhotos size={35}/>}/>
+            {/* <TaskbarItem className={styles.taskbar_item} itemLink='#foto' itemText={<IoMdPhotos size={35}/>}/> */}
             <TaskbarItem className={styles.taskbar_item} itemLink='#cronograma' itemText={<IoCalendar size={35}/>}/>
         </div>
     )
