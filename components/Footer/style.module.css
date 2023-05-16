@@ -1,15 +1,36 @@
 .footer {
     display: flex;
-    flex: 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
+    flex-direction: column;
+    padding: 2rem 0 0;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(transparent, #90a970);
+}
+.footer__client {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.footer__description {
+    margin-left: 15px;
+}
+.footer__copy {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer__author {
+    display: flex;
+    flex-direction: column;
+}
 .footer a {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .footer {
+        padding-bottom: 65px;
+    }
 }
