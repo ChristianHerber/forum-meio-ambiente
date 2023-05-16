@@ -1,8 +1,8 @@
-import styles from '../../styles/Home.module.css'
+import styles from './style.module.css'
 
 const Topic = ( {htitle, anchor} ) => {
     return (
-        <h2 id={anchor}>{htitle}</h2>
+        <h2 id={anchor} className={styles.topic__title}>{htitle}</h2>
     )
 }
 

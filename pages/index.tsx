@@ -10,6 +10,7 @@ import Card from '../components/Card'
 import Container from '../components/Container'
 import Taskbar from '../components/Taskbar'
 import Photo from '../components/Photo'
+import Schedule from '../components/Schedule'
 
 const Home: NextPage = () => {
   return (
@@ -55,6 +56,7 @@ const Home: NextPage = () => {
 
         <Container>
           <Topic htitle="Cronograma do Evento" anchor='cronograma'/>
+            <Schedule />
         </Container>
 
       </main>

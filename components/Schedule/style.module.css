@@ -1,0 +1,17 @@
+.schedule__title {
+    color: #6b3e0a;
+    font-size: 28px;
+    margin: 20px 0;
+}
+.schedule__item {
+    margin-bottom: 0!important;
+    margin-left: 25px;
+    padding: 0;
+    text-align: left;
+}
+
+@media (max-width: 550px) {
+    .schedule__item {
+        margin: 0;
+    }
+}
