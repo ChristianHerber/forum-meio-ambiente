@@ -19,7 +19,7 @@ const Schedule = () => {
             <Title ScheduleTitle='06 de Junho'/>
             <Item ScheduleHour='18:00' ScheduleDescription='Credenciamento'/>
             <Item ScheduleHour='19:00' ScheduleDescription='Lançamento e Apresentação do Manual de Arborização - SEMMEA'/>
-            <Item ScheduleHour='19:30' ScheduleDescription='Palestra: Prpograma Águas para o Futuro - MPMT'/>
+            <Item ScheduleHour='19:30' ScheduleDescription='Palestra: Programa Águas para o Futuro - MPMT'/>
             <Item ScheduleHour='20:30' ScheduleDescription='Intervalo'/>
             <Item ScheduleHour='20:45' ScheduleDescription='Mesa Redonda - Conservação de Recursos Hídricos e Pagamento por Serviços Ambientais - PSA'/>
             <Item ScheduleHour='21:45' ScheduleDescription='Encerramento'/>
