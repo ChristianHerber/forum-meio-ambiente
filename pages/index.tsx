@@ -42,17 +42,18 @@ const Home: NextPage = () => {
           </div>
         </Container> */}
 
-        {/* <Container>
+        <Container>
           <Topic htitle="Fotos" anchor='foto'/>
           <div className={styles.card_container}>
-            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
-            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/profile-photo.jpg' photoAlt='Foto Aqui'/>
-            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
-            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
-            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
-            <Photo photoThumb='/assets/img/thumbnail.jpg' photoImage='/assets/img/photo.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/fs0.jpg' photoImage='/assets/img/fs0-f.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/fs1.jpg' photoImage='/assets/img/fs1-f.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/fs2.jpg' photoImage='/assets/img/fs2-f.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/fs3.jpg' photoImage='/assets/img/fs3-f.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/fs4.jpg' photoImage='/assets/img/fs4-f.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/fs5.jpg' photoImage='/assets/img/fs5-f.jpg' photoAlt='Foto Aqui'/>
+            <Photo photoThumb='/assets/img/fs6.jpg' photoImage='/assets/img/fs6-f.jpg' photoAlt='Foto Aqui'/>
           </div>
-        </Container> */}
+        </Container>
 
         <Container>
           <Topic htitle="Cronograma do Evento" anchor='cronograma'/>
