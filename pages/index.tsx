@@ -27,10 +27,10 @@ const Home: NextPage = () => {
 
         <Description />
 
-        <Container>
+        {/* <Container>
           <Topic htitle="Link e QRCode para Inscrição" anchor='link'/>
           <Button LinkHref='https://www.sympla.com.br/1-forum-municipal-do-meio-ambiente-de-tangara-da-serra__1990357' LinkTarget="_blank" LinkTitle="Fazer Inscrição"/>
-        </Container>
+        </Container> */}
 
         <Container>
           <Topic htitle="Palestras realizadas" anchor='presenca'/>
