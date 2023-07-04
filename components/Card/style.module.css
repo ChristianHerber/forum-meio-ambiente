@@ -4,8 +4,9 @@
     transition: 0.3s;
     background: #fff;
     width: 320px;
-    height: 475px;
+    height: auto;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 .card:hover {
     transition: 0.2s;
