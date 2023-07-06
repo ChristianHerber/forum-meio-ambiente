@@ -37,6 +37,7 @@ const Home: NextPage = () => {
           <div className={styles.card_container}>
             <Card
               cardLink="https://tangaradaserra.mt.gov.br/site/wp-content/uploads/2023/07/slide-1-apresentacao-3-cibm-incendios-florestais-vegetacao.pdf"
+              cardPhoto="/assets/img/slide-palestra-.jpg"
               cardPhotoAlt="Panoragma de Incêncdio Florestal"
               cardName="Campos Filho"
               cardTitle="CAP QOBM"
