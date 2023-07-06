@@ -36,36 +36,34 @@ const Home: NextPage = () => {
           <Topic htitle="Palestras realizadas" anchor='presenca'/>
           <div className={styles.card_container}>
             <Card
-              cardLink="https://s3.sa-east-1.amazonaws.com/otimize-edoc/edoc_1255/2023/06/28/3CC7E2BF5CCF249E0B905A25/Apresentacao_3_CIBM_Incendios_Florestais_Vegetacao.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAY2AOIST6YOOX2GWQ%2F20230704%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230704T123725Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=4b0c07719a59ef445142bccdda53ebd909e708ac6706a7a6da5a12e54abe23b3"
-              cardPhoto="/assets/img/slide-palestra.jpg"
+              cardLink="https://tangaradaserra.mt.gov.br/site/wp-content/uploads/2023/07/slide-1-apresentacao-3-cibm-incendios-florestais-vegetacao.pdf"
               cardPhotoAlt="Panoragma de Incêncdio Florestal"
               cardName="Campos Filho"
               cardTitle="CAP QOBM"
             />
             <Card
-              cardLink="https://s3.sa-east-1.amazonaws.com/otimize-edoc/edoc_1255/2023/06/28/3CC7E2BF5CCF249E0B905A25/Apresentacao_SEMA_do_PGRS_Digital.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAY2AOIST6YOOX2GWQ%2F20230704%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230704T123725Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=4b9ae0e25e574afe219ba3b2a23ef662c0676969e75cfa465d6e5fb92bb03c54"
+              cardLink="https://tangaradaserra.mt.gov.br/site/wp-content/uploads/2023/07/apresentacao-do-powerpoint-apresentacao-sema-do-pgrs-digital.pdf"
               cardPhoto="/assets/img/slide-palestra-1.jpg"
               cardPhotoAlt="PGRS Digital Módulo de Gestão Pública"
               cardName="Giselle Lima"
               cardTitle="Chefe UPPE"
             />
             <Card
-              cardLink="https://s3.sa-east-1.amazonaws.com/otimize-edoc/edoc_1255/2023/06/28/3CC7E2BF5CCF249E0B905A25/Palestra_Responsabilizacao_ambiental_Apresentacao.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAY2AOIST6YOOX2GWQ%2F20230704%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230704T123727Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=698fe8ce4fb86e4f2ee5f13e9ccd47a6b72a44d928985a5980675fb1343c17ff"
+              cardLink="https://tangaradaserra.mt.gov.br/site/wp-content/uploads/2023/07/apresentacao-do-powerpoint-palestra-responsabilizacao-ambiental-apresentacao.pdf"
               cardPhoto="/assets/img/slide-palestra-2.jpg"
               cardPhotoAlt="A Resposabilização Ambiental como Mecanismo de Proteção e Preservação do Meio Ambiente"
               cardName="Belgrano Souza"
               cardTitle="Analista Ambiental"
             />
             <Card
-              cardLink="https://s3.sa-east-1.amazonaws.com/otimize-edoc/edoc_1255/2023/06/28/3CC7E2BF5CCF249E0B905A25/PGRS_como_instrumento_da_gestao_publica.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAY2AOIST6YOOX2GWQ%2F20230704%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230704T123729Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=21ba484447fadee326126af0c488fd6efa59f6376a399ec197e6a65aed00b8b3"
+              cardLink="https://tangaradaserra.mt.gov.br/site/wp-content/uploads/2023/07/pgrs-como-instrumento-da-gestao-publica-pgrs-como-instrumento-da-gestao-publica.pdf"
               cardPhoto="/assets/img/slide-palestra-3.jpg"
               cardPhotoAlt="PGRS Como Instrumento da Gestão Pública"
               cardName="Aline Cossolin"
               cardTitle="Analista Ambiental"
             />
             <Card
-              cardLink="https://s3.sa-east-1.amazonaws.com/otimize-edoc/edoc_1255/2023/06/28/3CC7E2BF5CCF249E0B905A25/PROGRAMA_DE_ADOCAO_DE_ESPACOS_PUBLICOS.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAY2AOIST6YOOX2GWQ%2F20230704%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230704T123735Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=437140b15c0a5f5da21b50ba65c1788eaf87dd39f6d3865ab27d3813c80178c8"
-              cardPhoto="/assets/img/slide-palestra-4.jpg"
+              cardLink="https://tangaradaserra.mt.gov.br/site/wp-content/uploads/2023/07/programa-de-adocao-de-espacos-publicos-programa-de-adocao-de-espacos-publicos.pdf"
               cardPhotoAlt="PAEP Programa de Adoção de Espaços Públicos"
               cardName="SEMMEA"
               cardTitle="Tangará da Serra"
