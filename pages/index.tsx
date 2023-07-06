@@ -65,6 +65,7 @@ const Home: NextPage = () => {
             />
             <Card
               cardLink="https://tangaradaserra.mt.gov.br/site/wp-content/uploads/2023/07/programa-de-adocao-de-espacos-publicos-programa-de-adocao-de-espacos-publicos.pdf"
+              cardPhoto="/assets/img/slide-palestra-4.jpg"
               cardPhotoAlt="PAEP Programa de Adoção de Espaços Públicos"
               cardName="SEMMEA"
               cardTitle="Tangará da Serra"
